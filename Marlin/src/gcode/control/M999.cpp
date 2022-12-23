@@ -42,4 +42,9 @@ void GcodeSuite::M999() {
   if (parser.boolval('S')) return;
 
   queue.flush_and_request_resend(queue.ring_buffer.command_port());
+
+  if (MOTHERBOARD==BOARD_ESPRESSIF_ESP32){  // eldeeb added to restart the ESP core
+    ESP.restart();
+  }
+
 }
