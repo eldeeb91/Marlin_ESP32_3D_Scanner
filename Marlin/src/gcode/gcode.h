@@ -601,6 +601,8 @@ private:
     static void G425();
   #endif
 
+  static void G200(); // eldeeb ToF Init
+  
   #if HAS_RESUME_CONTINUE
     static void M0_M1();
   #endif

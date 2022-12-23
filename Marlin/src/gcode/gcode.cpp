@@ -474,7 +474,8 @@ void GcodeSuite::process_parsed_command(const bool no_ok/*=false*/) {
       #if ENABLED(DEBUG_GCODE_PARSER)
         case 800: parser.debug(); break;                          // G800: GCode Parser Test for G
       #endif
-
+      case 200: G200(); break; // eldeeb ToF Init
+      
       default: parser.unknown_command_warning(); break;
     }
     break;
