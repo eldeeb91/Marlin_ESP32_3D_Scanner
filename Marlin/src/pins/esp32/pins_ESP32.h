@@ -42,9 +42,9 @@
 //
 // Limit Switches
 //
-#define X_MIN_PIN                             34 // eldeeb
-#define Y_MIN_PIN                             35
-#define Z_MIN_PIN                             05 // eldeeb
+#define X_MIN_PIN                             36 // eldeeb
+#define Y_MIN_PIN                             39
+#define Z_MIN_PIN                             34 // eldeeb
 
 //
 // Steppers
@@ -54,9 +54,9 @@
 #define X_ENABLE_PIN                         19 // eldeeb
 //#define X_CS_PIN                             0
 
-#define Y_STEP_PIN                           131
-#define Y_DIR_PIN                            132
-#define Y_ENABLE_PIN                         133
+#define Y_STEP_PIN                           05
+#define Y_DIR_PIN                            18
+#define Y_ENABLE_PIN                         19
 //#define Y_CS_PIN                            13
 
 #define Z_STEP_PIN                           00 // eldeeb

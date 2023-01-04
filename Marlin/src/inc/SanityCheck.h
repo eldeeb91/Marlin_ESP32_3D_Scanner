@@ -4151,6 +4151,13 @@ static_assert(_PLUS_TEST(4), "HOMING_FEEDRATE_MM_M values must be positive.");
 #endif
 
 /**
+ * Sanity check for ToF lib // eldeeb
+ */
+#if ENABLED(Adafruit_VL53L0X_lib) && ENABLED(vl53l0x_Arduino_lib)
+  #error "Only one lib for ToF sensor can be selected."
+#endif
+
+/**
  * Sanity Check for Password Feature
  */
 #if ENABLED(PASSWORD_FEATURE)

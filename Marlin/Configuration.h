@@ -99,7 +99,8 @@
  * :[-1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
 #define SERIAL_PORT 0
-
+#define Adafruit_VL53L0X_lib // eldeeb
+//#define vl53l0x_Arduino_lib //eldeeb
 /**
  * Serial Port Baud Rate
  * This is the default communication speed for all serial ports.
@@ -159,7 +160,7 @@
  * :['A4988', 'A5984', 'DRV8825', 'LV8729', 'TB6560', 'TB6600', 'TMC2100', 'TMC2130', 'TMC2130_STANDALONE', 'TMC2160', 'TMC2160_STANDALONE', 'TMC2208', 'TMC2208_STANDALONE', 'TMC2209', 'TMC2209_STANDALONE', 'TMC26X', 'TMC26X_STANDALONE', 'TMC2660', 'TMC2660_STANDALONE', 'TMC5130', 'TMC5130_STANDALONE', 'TMC5160', 'TMC5160_STANDALONE']
  */
 #define X_DRIVER_TYPE  TMC2208_STANDALONE // eldeeb
-#define Y_DRIVER_TYPE  A4988
+#define Y_DRIVER_TYPE  TMC2208_STANDALONE // eldeeb
 #define Z_DRIVER_TYPE  TMC2208_STANDALONE // eldeeb
 //#define X2_DRIVER_TYPE A4988
 //#define Y2_DRIVER_TYPE A4988
@@ -1695,7 +1696,7 @@
 
 // The size of the printable area
 #define X_BED_SIZE 360 // eldeeb
-#define Y_BED_SIZE 200 // eldeeb not used
+#define Y_BED_SIZE 180 // eldeeb
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
