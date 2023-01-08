@@ -1,6 +1,6 @@
 <p align="center">
-<img src="buildroot/ESP3D_Images/Camera1_.JPG" height="350" alt="Mechanical Model" />
-<img src="buildroot/ESP3D_Images/Camera4_.JPG" height="350" alt="Mechanical Model" />
+<img src="buildroot/ESP3D_Images/Camera1_.JPG" height="250" alt="Mechanical Model" />
+<img src="buildroot/ESP3D_Images/Camera4_.JPG" height="250" alt="Mechanical Model" />
 </p>
 <p align="center"></p>
 
@@ -11,6 +11,7 @@ This is a fork of marline firmware, that I used to run on ESP32 to build a 3D sc
  - Mechanical Parts for 3 Steppers [Done]
  - Custom Gcode for obtaining TOF value "G200" using Adafruit library [Done]
  - Checking usb connection for Octoprint and other serial applications [Done]
+ - Get the high accuery of TOF sensor to work [ ]
  - Enable wifi to be independet of the usb cable [ ]
  - Finalize mechanincal desing [ ]
  - Checking the distance vs accuaracy [ ]
